@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../css/rules.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="157.0" layoutY="14.0" prefHeight="57.0" prefWidth="288.0" text="RULES" textFill="#0B0C54DD">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="53.0" layoutY="79.0" prefHeight="160.0" prefWidth="495.0" styleClass="text-area" text="Каждая маленькая доска 3 × 3 называется локальной доской, а большая доска 3 × 3 называется глобальной доской.&#10;&#10;Игра начинается с того, что X играeт где угодно в любом из 81 пустых мест. Этот ход «отправляет» противника в его относительное местоположение. Например, если X играл в верхнем правом квадрате своего локального поля, то O должен играть следующим на локальном поле в правом верхнем углу глобального поля. Затем O может играть в любом из девяти доступных мест на этом локальном поле, каждый ход отправляет X на другое локальное поле.&#10;&#10;Если ход сделан так, чтобы выиграть локальную доску по правилам обычного крестики-нолики , то вся местная доска помечается как победа для игрока. в глобальной доске.&#10;&#10;После того, как игрок выиграл местную доску или она была полностью заполнена, больше нельзя делать ходы на этой доске. Если игрок попадает на такую ​​доску, то этот игрок может играть на любой другой доске." wrapText="true">
+         <font>
+            <Font name="Courier New" size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+   <styleClass>
+      <String fx:value="text-area" />
+      <String fx:value="body" />
+   </styleClass>
+</AnchorPane>

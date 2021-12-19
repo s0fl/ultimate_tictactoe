@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="194.0" prefWidth="270.0" styleClass="body" stylesheets="@../../../css/login.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="button" layoutX="49.0" styleClass="log_button" layoutY="79.0" mnemonicParsing="false" text="server start">
+         <font>
+            <Font name="Courier New" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

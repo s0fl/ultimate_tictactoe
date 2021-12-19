@@ -1,0 +1,36 @@
+.board {
+    -fx-background-image: url("https://funart.pro/uploads/posts/2021-04/1618592498_45-funart_pro-p-oboi-fon-peizazhi-iz-anime-48.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
+
+.button {
+    -fx-background-color: rgba(238, 144, 144, 0.8);
+    -fx-border-color: rgba(133, 77, 77, 0.88);
+    -fx-font-family: "Courier New", serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.pane {
+    fx-background-color: rgba(119, 71, 122, 0.89);
+}
+
+.disabledComboTestCls input {
+    font-weight: bold;
+    color: #888888;
+}
+
+.grid-pane:disabled {
+    -fx-opacity: 1.0;
+}
+
+.root {
+    -fx-control-inner-background: derive(-fx-base,80%);
+    -fx-control-inner-background-alt: derive(-fx-control-inner-background,-2%);
+}
+
+.label {
+    -fx-text-fill: rgba(0, 0, 0, 0.89);
+}

@@ -1,0 +1,62 @@
+.body {
+    -fx-background-image: url("https://cs6.livemaster.ru/storage/61/e0/0c86e2388f07ea216887eb6dc98m.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-font-family: "Courier New", serif;
+    -fx-alignment: center;
+}
+
+/*.table-column {*/
+/*    -fx-background-color: transparent;*/
+/*   // -fx-background-color: rgba(27, 43, 154, 0.11);*/
+/*    !*-fx-border-radius: 24px;*!*/
+/*}*/
+
+/*!*.table-view {*!*/
+/*!*    -fx-border-radius: 24px;*!*/
+/*!*}*!*/
+
+/*.table-header {*/
+/*    -fx-border-radius: 24px;*/
+/*}*/
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: white;
+    -fx-border-width: 0;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+    -fx-pref-height: 30px;
+}
+
+.table-view .column-header {
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: lightgrey;
+}
+
+.table-view .column-header .label {
+    -fx-alignment: center;
+    -fx-font-size: 14px;
+    -fx-pref-height: 40px;
+
+    /*-fx-padding: 5 0 15 0;*/
+}
+
+.table-row-cell, .table-row-cell:odd {
+    -fx-background-color: white;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: lightgrey;
+}
+
+.table-view .table-cell {
+    -fx-border-color: lightgrey;
+    -fx-border-width: 1 0 0 0;
+    -fx-font-size: 14px;
+    /*-fx-padding: 5 3 15 3;*/
+}

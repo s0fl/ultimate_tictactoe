@@ -1,0 +1,38 @@
+.body { /* #7adadd4*/
+    /*-fx-background-image: url("image/totoro.jpg");*/
+    -fx-background-image: url("https://images6.fanpop.com/image/photos/41500000/My-Neighbor-Totoro-Scenery-studio-ghibli-41589068-1280-693.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.pass {
+    -fx-background-color: rgba(199, 151, 6, 0.63);
+    -fx-prompt-text-fill: rgba(63, 39, 24, 0.65);
+}
+
+.field {
+    -fx-background-color: none;
+}
+
+.log_button {
+    -fx-background-color: rgba(199, 151, 6, 0.63);
+    -fx-background-radius: 24px;
+    -fx-border-radius: 24px;
+    -fx-border-width: 2px;
+    -fx-font-family: "Courier New", serif;
+    -fx-font-size: 20px;
+    -fx-text-fill: rgba(63, 39, 24, 0.65);
+}
+
+.log_button:hover {
+    -fx-background-color: rgba(63, 39, 24, 0.63);
+    -fx-text-fill: rgba(199, 151, 6, 0.90);
+}
+
+.button_req {
+    -fx-background-color: none;
+    -fx-text-fill: rgba(63, 39, 24, 0.90);
+    -fx-underline: true;
+}

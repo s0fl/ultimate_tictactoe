@@ -1,0 +1,42 @@
+.body {
+    /*-fx-background-image: url("https://phonoteka.org/uploads/posts/2021-06/1624414328_33-phonoteka_org-p-oboi-na-rabochii-stol-khayao-miyadzaki-kra-39.jpg");*/
+    -fx-background-image: url("https://pibig.info/uploads/posts/2021-09/thumbs/1632248009_28-pibig-info-p-studiya-gibli-anime-krasivo-foto-36.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
+
+.button {
+    -fx-text-fill: rgba(204, 189, 246, 0.93);
+    -fx-background-color: rgba(42, 49, 101, 0.69);
+    -fx-background-radius: 24px;
+}
+
+.button:hover {
+    -fx-text-fill:  rgba(42, 49, 101, 0.80);
+    -fx-background-radius: 24px;
+    -fx-background-color: rgba(204, 189, 246, 0.69);
+}
+
+.label {
+    /*-fx-background-color: rgba(42, 49, 101, 0.85);*/
+    -fx-background-color: linear-gradient(to right bottom, #2A3165D9, rgba(53, 101, 42, 0.85));
+    -fx-background-size: 300%, 300%;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-border-width: 5px;
+    -fx-text-fill: rgba(204, 189, 246, 0.93);
+    -fx-animated: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}

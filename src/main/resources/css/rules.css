@@ -1,0 +1,31 @@
+.body {
+    -fx-background-image: url("https://phonoteka.org/uploads/posts/2021-06/1622589956_8-phonoteka_org-p-khayao-miyadzaki-art-peizazhi-krasivo-10.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-font-family: "Courier New", serif;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-background-radius: 24px;
+    -fx-text-fill: rgba(11, 12, 84, 0.87);
+    /*-fx-text-alignment: justify;*/
+    -fx-alignment: center-right;
+}
+
+.content {
+    -fx-padding: 10,20,0,20;
+    width: 100%;
+    overflow: hidden;
+    -fx-background-color: transparent;
+}
+.viewport {
+    overflow: hidden;
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane {
+    -fx-hbar-policy: NEVER;
+    -fx-vbar-policy: NEVER;
+}
